@@ -5,3 +5,7 @@ public interface Emailable {
 	public String getEmail();
 
 }
+
+
+
+

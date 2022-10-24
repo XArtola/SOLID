@@ -5,3 +5,7 @@ public class SMSSender {
 //SMS bat bidaltzen du Person klaseko telefono zenbakira. }
 	}
 }
+
+
+
+
