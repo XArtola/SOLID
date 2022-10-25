@@ -16,6 +16,6 @@ public class Project {
 
 	public void storeAllFiles() {
 		for (ProjectFile f : files)
-			f.storeFile();
+			if(f instanceof WriteableProjectFile) ((WriteableProjectFile)f).storeFile();
 	}
 }

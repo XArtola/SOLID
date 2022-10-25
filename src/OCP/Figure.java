@@ -1,5 +1,6 @@
 package OCP;
 
 public class Figure {
-public abstract void draw(){};
+	public void draw(){};
+	public float getArea() {return 0;};
 }
